@@ -1,0 +1,129 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navbar {
+  background-color: #2970ff;
+  padding: 0.5rem 1.5rem;
+  position: sticky;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.link {
+  cursor: pointer;
+  opacity: 0.8;
+  color: white;
+  margin-top: 14px;
+}
+.link:hover {
+  opacity: 1;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vw;
+}
+.signupin-wrapper {
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.signinBtn {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 0rem 1rem 0rem 0rem;
+}
+.p-login {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin: 10px;
+}
+.load {
+  margin-top: 300px;
+}
+.card-title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card-col {
+  margin: 0;
+}
+.custom-input {
+  border: 0px;
+  border-bottom: 1px solid black;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  border-radius: 0;
+}
+.custom-input {
+  margin-top: -1rem !important;
+}
+.custom-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.custom-input:focus {
+  outline: none;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.input-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  border-radius: 0.4rem;
+  padding: 0rem 0.5rem;
+}
+.input-flex input {
+  width: 90%;
+  padding: 0.5rem;
+  border: 0;
+}
+.input-flex input:focus {
+  outline: none;
+}
+.font-trans {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.select-input {
+  width: 10%;
+}
+.chart-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  height: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  margin: 2rem;
+}
